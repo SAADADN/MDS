@@ -8,8 +8,8 @@ def MDSconstraint(A,x):
             return False
     return True
 
-for filename in os.listdir("udgs/dataSolution"):
-   with open(os.path.join("udgs/dataSolution", filename), 'rb') as f:
+for filename in os.listdir("udgs"):
+   with open(os.path.join("udgs", filename), 'rb') as f:
        network = pickle.load(f)
        #print(filename.split('_'))
    if (MDSconstraint(network['AdjacencyMatrix'].A, network['Solution'])):
