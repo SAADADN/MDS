@@ -8,7 +8,7 @@ def MPIDSconstraint(A,x):
             return False
     return True
 
-for filename in os.listdir("MPIDS_Table9"):
+for filename in os.listdir("MPIDS_Table9"): #change the folder name to MPIDS to verify the results in Table 8
    print(filename)
    with open(os.path.join("MPIDS_Table9", filename), 'rb') as f:
        network = pickle.load(f)
