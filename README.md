@@ -8,7 +8,7 @@ This file check the MDS constaint for n vertices, where n is the input size.
 This file verifies the results of the MDS based on social networks (Google plus, and Pokec), as shown in Table 6 of our paper. 
 
 #MPIDS_verification.py 
-This file verifies the results of the MPIDS for social netwoks that were reported in Table 9 of our paper.
+This file verifies the results of the MPIDS for social netwoks that were reported in Tables 8 and 9 of our paper.
 
 #udgsVerification.py 
 This file verifies the results of the MDS based on UDGs that were reported in Table 7 of our paper.
