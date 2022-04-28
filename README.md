@@ -4,5 +4,11 @@ This project shows the solutions for MDS and MPIDS problems using a hybrid local
 #MDS_constraints
 This file check the MDS constaint for n vertices, where n is the input size. 
 
+#MDS_socialVerification.py
+This file verifies the results of the MDS based on social networks (Google plus, and Pokec), as shown in Table 6 of our paper. 
 
+#MPIDS_verification.py 
+This file verifies the results of the MPIDS for social netwoks that were reported in Table 9 of our paper.
 
+#udgsVerification.py 
+This file verifies the results of the MDS based on UDGs that were reported in Table 7 of our paper.
